@@ -59,3 +59,20 @@ body {
   background-repeat: no-repeat;
   position: relative;
 }
+.banner{
+  color: var(--mainWhite);
+  margin-top: -4rem;
+}
+.banner-title{
+  color: var(--mainPink);
+  font-size: 4rem;
+}
+.banner-link{
+  font-size: 1.5rem;
+  color: var(--mainBlack);
+  border: 0.2rem solid var(--mainBlack);
+}
+.banner-link:hover{
+  background: var(--mainBlack);
+  color: var(--mainPink);
+}
